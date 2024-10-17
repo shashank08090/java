@@ -16,8 +16,8 @@ public class App
         System.out.println( "Hello World!" );
 
        AbstractApplicationContext context=new ClassPathXmlApplicationContext("Config.xml");
-       // Student s1=(Student) context.getBean("Student1");
+        Student s1=(Student) context.getBean("Student1");
        // System.out.println(s1);
-//        context.registerShutdownHook();
+        context.registerShutdownHook();
     }
 }

@@ -24,7 +24,7 @@
 <!--        <property name="id" value="1" />-->
 <!--        <property name="name" value="John Doe" />-->
 <!--    </bean>-->
-    <bean id="edao" class="org.example.dao.UserDao">
+    <bean id="dao" class="org.example.dao.UserDao">
         <property name="jdbcTemplate" ref="jdbcTemplate"></property>
     </bean>
 
